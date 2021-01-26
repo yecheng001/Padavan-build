@@ -42,11 +42,11 @@ jobs:
       run: |
         cd /opt/rt-n56u/trunk
         #sed -i 's/CONFIG_FIRMWARE_WIFI2_DRIVER=2.7/CONFIG_FIRMWARE_WIFI2_DRIVER=3.0/g' ./configs/templates/NEWIFI-MINI.config
-        sed -i "s/192.168.2/192.168.9/g" ./user/shared/defaults.h
-        sed -i 's/DEF_WLAN_2G_SSID	BOARD_PID "_%s"/DEF_WLAN_2G_SSID	BOARD_PID "newifi"/g' ./user/shared/defaults.h
-        sed -i 's/DEF_WLAN_5G_SSID	BOARD_PID "_5G_%s"/DEF_WLAN_5G_SSID	BOARD_PID "newifi_5G"/g' ./user/shared/defaults.h
+        #sed -i "s/192.168.2/192.168.9/g" ./user/shared/defaults.h
+        #sed -i 's/DEF_WLAN_2G_SSID	BOARD_PID "_%s"/DEF_WLAN_2G_SSID	BOARD_PID "newifi"/g' ./user/shared/defaults.h
+        #sed -i 's/DEF_WLAN_5G_SSID	BOARD_PID "_5G_%s"/DEF_WLAN_5G_SSID	BOARD_PID "newifi_5G"/g' ./user/shared/defaults.h
         #sed -i 's/DEF_WLAN_2G_CC		"CN"/DEF_WLAN_2G_CC		"AU"/g' ./user/shared/defaults.h
-        sed -i 's/DEF_WLAN_5G_CC		"US"/DEF_WLAN_5G_CC		"AU"/g' ./user/shared/defaults.h
+        #sed -i 's/DEF_WLAN_5G_CC		"US"/DEF_WLAN_5G_CC		"AU"/g' ./user/shared/defaults.h
         if [ ! -f configs/templates/$TNAME.config ] ; then
         echo "configs/templates/$TNAME.config not found "
         exit 1
