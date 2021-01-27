@@ -79,7 +79,7 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_ZEROTIER/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_HTOP/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_NANO/d' .config
-        sed -i '/CONFIG_FIRMWARE_INCLUDE_XUPNPD/d' .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_XUPNPD/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_PARTED/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_LPRD/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_U2EC/d' .config
