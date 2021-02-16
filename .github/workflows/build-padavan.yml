@@ -86,8 +86,8 @@ jobs:
         #sed -i '/CONFIG_FIRMWARE_INCLUDE_NFSD/d' .config
         #sed -i '/CONFIG_FIRMWARE_INCLUDE_NFSC/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_MINIDLNA/d' .config
-        sed -i '/CONFIG_FIRMWARE_INCLUDE_XUPNPD/d' .config
-        sed -i '/CONFIG_FIRMWARE_INCLUDE_TCPDUMP/d' .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_XUPNPD/d' .config
+        #sed -i '/CONFIG_FIRMWARE_INCLUDE_TCPDUMP/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_CIFS/d' .config
         sed -i 's/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=y/g' .config
         ######################################################################
